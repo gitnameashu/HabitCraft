@@ -1,0 +1,46 @@
+2024-06-13T05:12:46.497+05:30  INFO 9220 --- [main] c.e.habitcraft.HabitcraftApplicationKt   : Starting HabitcraftApplicationKt using Java 17.0.11 with PID 9220 (D:\habitcraft\build\classes\kotlin\main started by p.ashutosh1312 in D:\habitcraft)
+2024-06-13T05:12:46.509+05:30  INFO 9220 --- [main] c.e.habitcraft.HabitcraftApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2024-06-13T05:12:52.857+05:30  INFO 9220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-13T05:12:53.038+05:30  INFO 9220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 143 ms. Found 1 JPA repository interface.
+2024-06-13T05:12:55.668+05:30  INFO 9220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-13T05:12:55.755+05:30  INFO 9220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-13T05:12:55.756+05:30  INFO 9220 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-13T05:12:56.095+05:30  INFO 9220 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-13T05:12:56.095+05:30  INFO 9220 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9231 ms
+2024-06-13T05:12:56.854+05:30  INFO 9220 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-13T05:12:57.258+05:30  INFO 9220 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-13T05:12:57.520+05:30  INFO 9220 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-13T05:12:58.794+05:30  INFO 9220 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-13T05:12:59.109+05:30  INFO 9220 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-13T05:12:59.871+05:30  INFO 9220 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-06-13T05:12:59.874+05:30  INFO 9220 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-13T05:13:00.147+05:30  WARN 9220 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-13T05:13:02.496+05:30  INFO 9220 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-13T05:13:02.679+05:30  INFO 9220 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-13T05:13:04.186+05:30  INFO 9220 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-13T05:13:06.191+05:30  WARN 9220 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-13T05:13:07.541+05:30  INFO 9220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-13T05:13:07.566+05:30  INFO 9220 --- [main] c.e.habitcraft.HabitcraftApplicationKt   : Started HabitcraftApplicationKt in 24.254 seconds (process running for 28.87)
+2024-06-13T05:22:39.029+05:30  INFO 14008 --- [main] c.e.habitcraft.HabitcraftApplicationKt   : Starting HabitcraftApplicationKt using Java 17.0.11 with PID 14008 (D:\habitcraft\build\classes\kotlin\main started by p.ashutosh1312 in D:\habitcraft)
+2024-06-13T05:22:39.033+05:30  INFO 14008 --- [main] c.e.habitcraft.HabitcraftApplicationKt   : No active profile set, falling back to 1 default profile: "default"
+2024-06-13T05:22:42.131+05:30  INFO 14008 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-13T05:22:42.273+05:30  INFO 14008 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130 ms. Found 1 JPA repository interface.
+2024-06-13T05:22:43.882+05:30  INFO 14008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-13T05:22:43.925+05:30  INFO 14008 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-13T05:22:43.925+05:30  INFO 14008 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-13T05:22:44.194+05:30  INFO 14008 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-13T05:22:44.195+05:30  INFO 14008 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5068 ms
+2024-06-13T05:22:44.739+05:30  INFO 14008 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-13T05:22:45.043+05:30  INFO 14008 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-13T05:22:45.268+05:30  INFO 14008 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-13T05:22:46.160+05:30  INFO 14008 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-13T05:22:46.288+05:30  INFO 14008 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-13T05:22:46.748+05:30  INFO 14008 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-06-13T05:22:46.751+05:30  INFO 14008 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-13T05:22:46.860+05:30  WARN 14008 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-13T05:22:48.820+05:30  INFO 14008 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-13T05:22:48.977+05:30  INFO 14008 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-13T05:22:49.745+05:30  INFO 14008 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-13T05:22:50.435+05:30  WARN 14008 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-13T05:22:51.044+05:30  INFO 14008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-06-13T05:22:51.060+05:30  INFO 14008 --- [main] c.e.habitcraft.HabitcraftApplicationKt   : Started HabitcraftApplicationKt in 12.748 seconds (process running for 13.301)
